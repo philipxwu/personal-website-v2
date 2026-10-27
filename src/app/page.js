@@ -74,7 +74,7 @@ export default function Home() {
                 <ListItem>
                   interning at 
                   <Link
-                    href="https://danbotrobotics.com/"
+                    href="https://www.ttc.ca/Jobs/Featured-jobs/Engineering"
                     isExternal
                     textDecoration="none"
                     _hover={{ textDecoration: "none" }}
