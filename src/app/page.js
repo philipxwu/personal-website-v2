@@ -72,10 +72,27 @@ export default function Home() {
               <Text>currently, I'm...</Text>
               <List spacing={1} pl={4} styleType="disc">
                 <ListItem>
-                  studying in my 3rd year of Mechanical Engineering
+                  interning at 
+                  <Link
+                    href="https://danbotrobotics.com/"
+                    isExternal
+                    textDecoration="none"
+                    _hover={{ textDecoration: "none" }}
+                  >
+                    <Text
+                      as="span"
+                      mx={1}
+                      fontWeight="bold"
+                      borderBottom="2px solid #76A2CE"
+                      color="#76A2CE"
+                    >
+                      Toronto Transit Commission
+                    </Text>
+                  </Link>
+                  in Toronto, working on streetcar reliability and subway engineering projects
                 </ListItem>
                 <ListItem>
-                  seeking Summer 2026 internships!
+                  seeking Winter 2027 internships!
                   <Link
                     href="mailto:phillip.wu@mail.utoronto.ca"
                     isExternal
@@ -98,7 +115,7 @@ export default function Home() {
               <Text pt={5}>in the past, I...</Text>
               <List spacing={1} pl={4} styleType="disc">
                 <ListItem>
-                  architected the mechanical design of a delivery rover at
+                  designed mechanical systems for an autonomous delivery rover at
                   <Link
                     href="https://danbotrobotics.com/"
                     isExternal
@@ -118,7 +135,7 @@ export default function Home() {
                   </Link>
                 </ListItem>
                 <ListItem>
-                  manufactured the aerobody of a hydrogen fuel cell eco car with the competition team at
+                  manufactured the aerobody of a hydrogen fuel cell eco car with
                   <Link
                     href="https://www.utsm.ca/"
                     isExternal
@@ -137,7 +154,7 @@ export default function Home() {
                   </Link>
                 </ListItem>
                 <ListItem>
-                  worked with
+                  integrated sensor data into a vehicle telemetry system with
                   <Link
                     href="https://www.utra.ca/art.html"
                     isExternal
@@ -154,7 +171,6 @@ export default function Home() {
                       UTRA ART
                     </Text>
                   </Link>
-                  to integrate sensor data into the telemetry system
                 </ListItem>
               </List>
 
@@ -162,6 +178,9 @@ export default function Home() {
               <List spacing={1} pl={4} styleType="disc">
                 <ListItem>
                   exploring and eating my way through the Toronto area
+                </ListItem>
+                <ListItem>
+                  tinkering with cars, computers, and anything mechanical
                 </ListItem>
 
               </List>
@@ -242,7 +261,7 @@ export default function Home() {
               <Image src="/images/mail.png" alt="Mail" boxSize="24px" />
             </Link>
           </HStack>
-          <Text>© Philip Wu, 2025</Text>
+          <Text>© Philip Wu, 2026</Text>
         </Flex>
       </Flex>
     </Container>
